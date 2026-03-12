@@ -1,10 +1,24 @@
+<img src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c7e60e4a663b491ea8e29432d2298d0a/agnestachyon_icon.png" width="128" height="128" >
+
 # UmaCam
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?logo=Flutter&logoColor=white)
+[![Build APK](https://github.com/Wiesmak/UmaCam/actions/workflows/build.yaml/badge.svg)](https://github.com/Wiesmak/UmaCam/actions/workflows/build.yaml)
+![GitHub Release](https://img.shields.io/github/v/release/wiesmak/umacam)
 
 *An experimental apparatus for capturing test subjects within the framework of a Support Card.*
 
 UmaCam is a photo booth application that photographs the subject and composites them into an Uma Musume: Pretty Derby SSR support card template. The result is a shareable support card featuring your unwitting— or willing— participant.
 
 This is my creation. I trust you'll handle it with the appropriate level of scientific curiosity.
+
+---
+
+## tl;dr
+
+Download the latest CI build:
+
+[![Download zip](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download APK")](https://github.com/wiesmak/umacam/releases/latest/download/app-release.apk)
+
 
 ---
 
@@ -38,14 +52,14 @@ This is my creation. I trust you'll handle it with the appropriate level of scie
 
 ## Supported Platforms
 
-| Platform | Status         |
-|----------|----------------|
-| Android  | ✅ Tested       |
-| Windows  | ⚠️ Untested     |
-| Web      | ⚠️ Untested     |
-| iOS      | ❌ Unsupported  |
-| Linux    | ❌ Unsupported  |
-| macOS    | ❌ Unsupported  |
+| Platform | Status        |
+|----------|---------------|
+| Android  | ✅ Tested      |
+| Windows  | ⚠️ Untested   |
+| Web      | ⚠️ Untested   |
+| iOS      | ❌ Unsupported |
+| Linux    | ❌ Unsupported |
+| macOS    | ❌ Unsupported |
 
 Android is the primary test target. The others may work— or they may not. That's an experiment for another day.
 
