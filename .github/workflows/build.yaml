@@ -1,12 +1,5 @@
 name: "Build APK"
-on:
-  push:
-    branches:
-    - master
-  pull_request:
-    branches:
-    - master
-  workflow_dispatch: []
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
@@ -23,3 +16,10 @@ jobs:
         with:
           name: app-release.apk
           path: build/app/outputs/flutter-apk/app-release.apk
+      - name: Create release
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: app-release.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
